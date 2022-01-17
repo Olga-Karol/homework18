@@ -1,0 +1,65 @@
+<html xmlns:table-align="http://www.w3.org/1999/xhtml">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+  <div class = "elements" style="border: black solid 1px; width: 1200px; height: 400;">
+      <style>
+table, th, td {
+  border:1px solid black;
+}
+</style>
+      <div>
+      <h2>Table example</h2>
+          <p>2 - Разместить HTML-файл на github в новом проекте и сделать Pull Request</p>
+          <p>3 - Открыть файл используя Selenium</p>
+      <table id="table" class="table" style="width:80%">
+          <tr>
+              <th>Company</th>
+              <th>Contact</th>
+              <th>Country</th>
+          </tr>
+          <tr>
+              <td>Alfreds Futterkiste</td>
+              <td>Maria Anders</td>
+              <td>Germany</td>
+          </tr>
+          <tr>
+              <td>Centro comercial Moctezuma</td>
+              <td>Francisco Chang</td>
+              <td>Mexico</td>
+          </tr>
+      </table>
+          </div>
+      <div class="search">
+      <div class ="text-input">
+      <div class ="label">Search</div>
+      <div style="width: 200px"><input type="text" placeholder="Input contact name"></div>
+          </div>
+          <div class ="search">
+              <button class = "button">Search</button>
+          </div>
+      </div>
+      <div class="checkbox">
+          <div><input type="checkbox"></div>
+          <div class="label-checkbox">Include inactivated contacts</div>
+          </div>
+      <div class="selector">
+          <div class="filter-label">Filter by country</div>
+          <select id="dropdown">
+              <option value="" disabled="disabled" selected="selected">Please select country</option>
+              <option value="germany">Germany</option>
+              <option value="mexico">Mexico</option>
+          </select>
+      </div>
+      <div class="image">
+          <div class ="label-icon">Contact us:</div>
+          <a href="mailto:test@test.com">
+          <img src="https://icon-library.com/images/black-email-icon/black-email-icon-8.jpg" alt="Contact us" width="32" height="32">
+          </a>
+          </div>
+  </div>
+</body>
+</html>
